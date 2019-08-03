@@ -1,0 +1,17 @@
+<mvc:View controllerName="com.myorg.myBookApp.controller.App" displayBlock="true" 
+	xmlns="sap.m" 
+	xmlns:mvc="sap.ui.core.mvc">
+	<App id="idAppControl">
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<List headerText="{i18n>booksTitle}" class="sapUiResponsiveMargin" width="auto" items="{books>/value}">
+						<items>
+							<ObjectListItem title="{books>title}" type="Active" number="{books>stock}"/>
+						</items>
+					</List>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View> 

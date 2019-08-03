@@ -1,0 +1,36 @@
+{
+    "@odata.context": "$metadata#Books",
+    "@odata.metadataEtag": "W/\"I8x2psswp5ZqLAcDfMdxrfDcEnd4OB3lO3Q1FYYKaHk=\"",
+    "value": [
+        {
+            "ID": 201,
+            "title": "Wuthering Heights",
+            "stock": 12,
+            "author_ID": 101
+        },
+        {
+            "ID": 207,
+            "title": "Jane Eyre",
+            "stock": 11,
+            "author_ID": 107
+        },
+        {
+            "ID": 251,
+            "title": "The Raven -- 11% discount!",
+            "stock": 333,
+            "author_ID": 150
+        },
+        {
+            "ID": 252,
+            "title": "Eleonora -- 11% discount!",
+            "stock": 555,
+            "author_ID": 150
+        },
+        {
+            "ID": 271,
+            "title": "Catweazle",
+            "stock": 22,
+            "author_ID": 170
+        }
+    ]
+}
